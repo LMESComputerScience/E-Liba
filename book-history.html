@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Groovin Bootstrap Template - Index</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/table.css"/> 
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <h1 class="logo"><a href="index.html">Pinnacle</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="store.html">STORE</a></li>
+                    <li><a class="nav-link scrollto" href="#about">BOOKLIST</a></li>
+                    <li><a class="nav-link scrollto" href="index.html">LOGOUT</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+    <br>
+    <br>
+    <main id="main">
+        <section class="section cart__area">
+            <div class="container">
+                <div class="responsive__cart-area">
+                    <form class="cart__form">
+                        <div class="cart__table table-responsive">
+                            <!-- Example single danger button -->
+                            <a class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" style="font-size: medium;"><i class="bi bi-trash"></i> Delete</a>
+                            <div class="dropdown pull-right mb-2" style="margin-top:2px;float: right;">
+                                <button class="btn btn-secondary dropdown-btn dropdown-toggle animate__animated animate__fadeInUp" style="font-size: medium;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Filters
+                                    </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="font-size: medium;padding: 2%;">
+                                    <li><a class="dropdown-item" href="#">Pending Borrows</a></li>
+                                    <li><a class="dropdown-item" href="#" >Due Borrows</a></li>
+                                    <li><a class="dropdown-item" href="#" >Returned Records</a></li>
+                                </ul>
+                            </div>
+                            <table width="100%" class="table" style="margin-top: 2%;">
+                                <thead>
+                                    <tr>
+                                        <th>Sr.No</th>
+                                        <th>Student</th>
+                                        <th>Component</th>
+                                        <th>Date-Time</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="product__thumbnail">
+                                            1.
+                                        </td>
+                                        <td class="product__name">
+                                            <a href="#">M.Annamalai</a>
+                                            <br>
+                                            <small>SEC19CS120</small>
+                                        </td>
+                                        <td class="product__price">
+                                            <div class="price">
+                                                <span class="new__price">Electronic Gadget</span>
+                                            </div>
+                                        </td>
+                                        <td class="product__quantity">
+                                            12/10/2021-17:56
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-outline-success" disabled style="font-size: 90%;">Returned</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="product__thumbnail">
+                                            2.
+                                        </td>
+                                        <td class="product__name">
+                                            <a href="#">Srinithi</a>
+                                            <br>
+                                            <small>SEC19CS000</small>
+                                        </td>
+                                        <td class="product__price">
+                                            <div class="price">
+                                                <span class="new__price">Electronic Gadget</span>
+                                            </div>
+                                        </td>
+                                        <td class="product__quantity">
+                                            12/10/2021-17:56
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal1" style="font-size: 90%;">
+                                                Return Now
+                                              </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="product__thumbnail">
+                                            3.
+                                        </td>
+                                        <td class="product__name">
+                                            <a href="#">Deepthi</a>
+                                            <br>
+                                            <small>SEC19CS000</small>
+                                        </td>
+                                        <td class="product__price">
+                                            <div class="price">
+                                                <span class="new__price">Electronic Gadget</span>
+                                            </div>
+                                        </td>
+                                        <td class="product__quantity">
+                                            12/10/2021-17:56
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal1" style="font-size: 90%;">
+                                                Return Now
+                                              </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br>
+
+    <!-- Delete modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <h5 class="modal-title fw-bold heading" id="exampleModalLabel" style="font-size: 120%;">Delete</h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="padding: 5%;">
+                    <br>
+                    <form method="POST" enctype="multipart/form-data">
+                        <div style="display:inline">
+                            <p style="display:inline;float:left;font-size: 130%">Delete Records dated till:</p>
+                            <div style="display:inline;float:right; margin-right: 5%; height:20%"> <input type=date name="deldate" max="<?php echo $currentDate; ?>"> </div>
+                        </div>    
+                    </form>
+                    <br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="width: max-content;font-size: small;">Cancel</button>
+                    <input type="submit" class="btn btn-danger" value="Delete" name="submitdel" style="width: max-content;font-size: small;"> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Return Modal -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <h5 class="modal-title fw-bold heading" id="exampleModalLabel" style="font-size: 120%;">Delete</h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="padding: 5%;font-size: medium;">
+                    Are you sure to change the status??
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="width: max-content;font-size: small;">Cancel</button>
+                    <input type="submit" class="btn btn-danger" value="Delete" name="submitdel" style="width: max-content;font-size: small;"> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Portfolio Section -->
+    <a href="# " class="back-to-top d-flex align-items-center justify-content-center "><i class="bi bi-arrow-up-short "></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js "></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
+    <script src="assets/vendor/php-email-form/validate.js "></script>
+    <script src="assets/vendor/purecounter/purecounter.js "></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js "></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js "></script>
+</body>
