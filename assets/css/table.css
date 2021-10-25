@@ -507,7 +507,7 @@ Reset
     display: block;
     width: 100%;
     margin-bottom: 4rem;
-    overflow-x: auto;
+    overflow-x: hidden;
   }
   
   .cart__table .table {
