@@ -60,35 +60,37 @@
             <div class="mb-5">
                 <a href="#exampleModal" class="btn btn-md btn-success" data-bs-toggle="modal" style="border-radius:30px;">Add Category</a>
             </div>
-            <!--Add Category modal-->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title" id="exampleModalLabel">Add Category</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="inputGroup-sizing-default">Category Id</span>
-                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            <form action="">
+                <!--Add Category modal-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="exampleModalLabel">Add Category</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="inputGroup-sizing-default">Category Name</span>
-                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            <div class="modal-body">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">Category Id</span>
+                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">Category Name</span>
+                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">Category Iamge</span>
+                                    <input type="file" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                </div>
                             </div>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="inputGroup-sizing-default">Category Iamge</span>
-                                <input type="file" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-success">Submit</button>
                             </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                            <button type="button" class="btn btn-success">Submit</button>
                         </div>
                     </div>
                 </div>
-            </div>
+            </form>
             <div class="row portfolio-container">
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
@@ -97,7 +99,7 @@
                             <h4>App 1</h4>
                             <p>App</p>
                             <div class="portfolio-links">
-                                <a href="#editModal" data-bs-toggle="modal" title="Edit"><i class="bx bx-edit"></i></a>
+                                <a href="update-category.html" title="Edit"><i class="bx bx-edit"></i></a>
                                 <a href="#deleteModal" data-bs-toggle="modal" title="Delete"><i class="bx bx-trash"></i></a>
                             </div>
                         </div>
@@ -111,7 +113,7 @@
                             <h4>Web 3</h4>
                             <p>Web</p>
                             <div class="portfolio-links">
-                                <a href="#editModal" data-bs-toggle="modal" title="Edit"><i class="bx bx-edit"></i></a>
+                                <a href="update-category.html" title="Edit"><i class="bx bx-edit"></i></a>
                                 <a href="#deleteModal" data-bs-toggle="modal" title="Delete"><i class="bx bx-trash"></i></a>
                             </div>
                         </div>
@@ -125,7 +127,7 @@
                             <h4>App 2</h4>
                             <p>App</p>
                             <div class="portfolio-links">
-                                <a href="#editModal" data-bs-toggle="modal" title="Edit"><i class="bx bx-edit"></i></a>
+                                <a href="update-category.html" title="Edit"><i class="bx bx-edit"></i></a>
                                 <a href="#deleteModal" data-bs-toggle="modal" title="Delete"><i class="bx bx-trash"></i></a>
                             </div>
                         </div>
@@ -139,7 +141,7 @@
                             <h4>Card 2</h4>
                             <p>Card</p>
                             <div class="portfolio-links">
-                                <a href="#editModal" data-bs-toggle="modal" title="Edit"><i class="bx bx-edit"></i></a>
+                                <a href="update-category.html" title="Edit"><i class="bx bx-edit"></i></a>
                                 <a href="#deleteModal" data-bs-toggle="modal" title="Delete"><i class="bx bx-trash"></i></a>
                             </div>
                         </div>
@@ -153,7 +155,7 @@
                             <h4>Web 2</h4>
                             <p>Web</p>
                             <div class="portfolio-links">
-                                <a href="#editModal" data-bs-toggle="modal" title="Edit"><i class="bx bx-edit"></i></a>
+                                <a href="update-category.html" title="Edit"><i class="bx bx-edit"></i></a>
                                 <a href="#deleteModal" data-bs-toggle="modal" title="Delete"><i class="bx bx-trash"></i></a>
                             </div>
                         </div>
@@ -167,7 +169,7 @@
                             <h4>App 3</h4>
                             <p>App</p>
                             <div class="portfolio-links">
-                                <a href="#editModal" data-bs-toggle="modal" title="Edit"><i class="bx bx-edit"></i></a>
+                                <a href="update-category.html" title="Edit"><i class="bx bx-edit"></i></a>
                                 <a href="#deleteModal" data-bs-toggle="modal" title="Delete"><i class="bx bx-trash"></i></a>
                             </div>
                         </div>
@@ -181,7 +183,7 @@
                             <h4>Card 1</h4>
                             <p>Card</p>
                             <div class="portfolio-links">
-                                <a href="#editModal" data-bs-toggle="modal" title="Edit"><i class="bx bx-edit"></i></a>
+                                <a href="update-category.html" title="Edit"><i class="bx bx-edit"></i></a>
                                 <a href="#deleteModal" data-bs-toggle="modal" title="Delete"><i class="bx bx-trash"></i></a>
                             </div>
                         </div>
@@ -195,7 +197,7 @@
                             <h4>Card 3</h4>
                             <p>Card</p>
                             <div class="portfolio-links">
-                                <a href="#editModal" data-bs-toggle="modal" title="Edit"><i class="bx bx-edit"></i></a>
+                                <a href="update-category.html" title="Edit"><i class="bx bx-edit"></i></a>
                                 <a href="#deleteModal" data-bs-toggle="modal" title="Delete"><i class="bx bx-trash"></i></a>
                             </div>
                         </div>
@@ -209,7 +211,7 @@
                             <h4>Web 3</h4>
                             <p>Web</p>
                             <div class="portfolio-links">
-                                <a href="#editModal" data-bs-toggle="modal" title="Edit"><i class="bx bx-edit"></i></a>
+                                <a href="update-category.html" title="Edit"><i class="bx bx-edit"></i></a>
                                 <a href="#deleteModal" data-bs-toggle="modal" title="Delete"><i class="bx bx-trash"></i></a>
                             </div>
                         </div>
@@ -218,56 +220,28 @@
 
             </div>
         </div>
-        <!--Edit Modal-->
-        <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="exampleModalLabel">Update Category</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="inputGroup-sizing-default">Category Id</span>
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <form action="">
+            <!--Delete Modal-->
+            <div class=" modal fade " id="deleteModal " tabindex="-1 " aria-labelledby="deleteModalLabel " aria-hidden="true ">
+                <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content ">
+                        <div class="modal-header ">
+                            <h4 class="modal-title " id="exampleModalLabel ">Confirmation</h4>
+                            <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
                         </div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="inputGroup-sizing-default">Category Name</span>
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        <div class="modal-body ">
+                            <h5>Do you really want to delete?</h5>
                         </div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="inputGroup-sizing-default">Category Iamge</span>
-                            <input type="file" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        <div class="modal-footer ">
+                            <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">No</button>
+                            <button type="button " class="btn btn-success ">Yes</button>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="button" class="btn btn-success">Update</button>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--Delete Modal-->
-        <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="exampleModalLabel">Confirmation</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <h5>Do you really want to delete?</h5>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
-                        <button type="button" class="btn btn-success">Yes</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </form>
     </section>
     <!-- End Portfolio Section -->
-
     <a href="# " class="back-to-top d-flex align-items-center justify-content-center "><i class="bi bi-arrow-up-short "></i></a>
 
     <!-- Vendor JS Files -->
