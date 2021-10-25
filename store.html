@@ -93,7 +93,7 @@
             </form>
             <div class="row portfolio-container animate__animated animate__fadeInDown">
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap" onclick="window.location.href='component.html'">
+                    <div class="portfolio-wrap">
                         <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Mechanical</h4>
@@ -101,48 +101,52 @@
                             <div class="portfolio-links">
                                 <a href="update-category.html" title="Edit"><i class="bx bx-edit"></i></a>
                                 <a href="#deleteModal1" data-bs-toggle="modal" title="Delete"><i class="bx bx-trash"></i></a>
+                                <a href="component.html" title="View"> <i class="bi bi-eye-fill"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web ">
-                    <div class="portfolio-wrap " onclick="window.location.href='component.html'">
-                        <img src="assets/img/portfolio/portfolio-2.jpg " class="img-fluid " alt=" ">
-                        <div class="portfolio-info ">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=" ">
+                        <div class="portfolio-info">
                             <h4>Electrical</h4>
                             <p>Description.........</p>
                             <div class="portfolio-links">
                                 <a href="update-category.html" title="Edit"><i class="bx bx-edit"></i></a>
                                 <a href="#deleteModal1" data-bs-toggle="modal" title="Delete"><i class="bx bx-trash"></i></a>
+                                <a href="component.html" title="View"> <i class="bi bi-eye-fill"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app ">
-                    <div class="portfolio-wrap " onclick="window.location.href='component.html'">
-                        <img src="assets/img/portfolio/portfolio-3.jpg " class="img-fluid " alt=" ">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/portfolio-3.jpg " class="img-fluid" alt=" ">
                         <div class="portfolio-info ">
                             <h4>Electronics</h4>
                             <p>Description.........</p>
                             <div class="portfolio-links">
                                 <a href="update-category.html" title="Edit"><i class="bx bx-edit"></i></a>
                                 <a href="#deleteModal1" data-bs-toggle="modal" title="Delete"><i class="bx bx-trash"></i></a>
+                                <a href="component.html" title="View"> <i class="bi bi-eye-fill"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card ">
-                    <div class="portfolio-wrap " onclick="window.location.href='component.html'">
-                        <img src="assets/img/portfolio/portfolio-4.jpg " class="img-fluid " alt=" ">
-                        <div class="portfolio-info ">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=" ">
+                        <div class="portfolio-info">
                             <h4>ComputerScience</h4>
                             <p>Description.........</p>
                             <div class="portfolio-links">
                                 <a href="update-category.html" title="Edit"><i class="bx bx-edit"></i></a>
                                 <a href="#deleteModal1" data-bs-toggle="modal" title="Delete"><i class="bx bx-trash"></i></a>
+                                <a href="component.html" title="View"> <i class="bi bi-eye-fill"></i></a>
                             </div>
                         </div>
                     </div>
@@ -220,26 +224,25 @@
 
             </div>
         </div>
-        <form action="">
-            <!--Delete Modal-->
-            <div class="modal fade" id="deleteModal1" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title" id="deleteModalLabel">Confirmation</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <h5>Do you really want to delete?</h5>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
-                            <button type="button" class="btn btn-success">Yes</button>
-                        </div>
+        <!--Delete Modal-->
+        <div class="modal fade" id="deleteModal1" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="deleteModalLabel">Confirmation</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5>Do you really want to delete?</h5>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                        <button type="button" class="btn btn-success">Yes</button>
                     </div>
                 </div>
             </div>
-        </form>
+        </div>
+
     </section>
     <!-- End Portfolio Section -->
     <a href="# " class="back-to-top d-flex align-items-center justify-content-center "><i class="bi bi-arrow-up-short "></i></a>
