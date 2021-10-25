@@ -41,8 +41,9 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="store.html">STORE</a></li>
-                    <li><a class="nav-link scrollto" href="book-history.html">BOOKLIST</a></li>
+                    <li><a class="nav-link scrollto" href="store.html">STORE</a></li>
+                    <li><a class="nav-link scrollto" href="current-booking.html">BOOK</a></li>
+                    <li><a class="nav-link scrollto active" href="book-history.html">BOOKLIST</a></li>
                     <li><a class="nav-link scrollto" href="index.html">LOGOUT</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -94,7 +95,7 @@
                                         </td>
                                         <td class="product__price">
                                             <div class="price">
-                                                <span class="new__price">Electronic Gadget</span>
+                                                <span class="new__price" style="color: red;">Electronic Gadget</span>
                                             </div>
                                         </td>
                                         <td class="product__quantity">
@@ -115,7 +116,7 @@
                                         </td>
                                         <td class="product__price">
                                             <div class="price">
-                                                <span class="new__price">Electronic Gadget</span>
+                                                <span class="new__price" style="color: red;">Electronic Gadget</span>
                                             </div>
                                         </td>
                                         <td class="product__quantity">
@@ -138,7 +139,7 @@
                                         </td>
                                         <td class="product__price">
                                             <div class="price">
-                                                <span class="new__price">Electronic Gadget</span>
+                                                <span class="new__price" style="color: red;">Electronic Gadget</span>
                                             </div>
                                         </td>
                                         <td class="product__quantity">
@@ -175,7 +176,7 @@
                     <form method="POST" enctype="multipart/form-data">
                         <div style="display:inline">
                             <p style="display:inline;float:left;font-size: 130%">Delete Records dated till:</p>
-                            <div style="display:inline;float:right; margin-right: 5%; height:20%"> <input type=date name="deldate" max="<?php echo $currentDate; ?>"> </div>
+                            <div style="display:inline;float:right; margin-right: 5%; height:20%"> <input type=date name="deldate" style="border: none; border-bottom: 1px solid black"></div>
                         </div>    
                     </form>
                     <br>
